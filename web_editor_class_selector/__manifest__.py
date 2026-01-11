@@ -1,6 +1,6 @@
 {
     "name": "Web editor class selector",
-    "version": "16.0.1.1.0",
+    "version": "19.0.1.1.0",
     "summary": "",
     "author": "Tecnativa, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/web",

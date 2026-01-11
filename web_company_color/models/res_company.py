@@ -228,4 +228,4 @@ class ResCompany(models.Model):
             else:
                 values.update({"type": "binary", "mimetype": "text/scss"})
                 IrAttachmentObj.sudo().create(values)
-        self.env["ir.qweb"].sudo().clear_caches()
+        self.env.registry.clear_cache()

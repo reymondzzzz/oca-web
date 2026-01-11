@@ -4,7 +4,7 @@
     "name": "Web Numeric Field Formatting",
     "summary": "Allow to render float and integer fields without thousands separator",
     "category": "web",
-    "version": "16.0.1.0.0",
+    "version": "19.0.1.0.0",
     "author": "Opener B.V., Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/web",
     "depends": ["web"],

@@ -17,7 +17,7 @@
                         nolabel="1"
                         context="{'default_model_name': model}"
                     >
-                        <tree editable="bottom">
+                        <list editable="bottom">
                             <field name="model_name" invisible="1" />
                             <field
                                 name="field_id"
@@ -28,7 +28,7 @@
                             <field name="option_create" />
                             <field name="option_create_edit" />
                             <field name="option_create_edit_wizard" />
-                        </tree>
+                        </list>
                     </field>
                 </page>
             </xpath>

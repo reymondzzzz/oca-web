@@ -5,12 +5,8 @@
 
     <record id="group_tooltip_manager" model="res.groups">
         <field name="name">Tooltip Manager</field>
-        <field name="category_id" ref="base.module_category_hidden" />
+        <!-- category_id and users removed in Odoo 19 -->
         <field name="comment">The user will be able to manage all the tooltips.</field>
-        <field
-            name="users"
-            eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"
-        />
     </record>
 
 </odoo>

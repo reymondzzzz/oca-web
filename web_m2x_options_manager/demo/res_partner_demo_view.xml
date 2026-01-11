@@ -15,10 +15,10 @@
                         <field name="category_id" options="{'create': False}" />
                         <!-- One2many -->
                         <field name="user_ids">
-                            <tree>
+                            <list>
                                 <!-- Many2one within tree -->
                                 <field name="company_id" options="{'create': False}" />
-                            </tree>
+                            </list>
                         </field>
                     </group>
                 </sheet>

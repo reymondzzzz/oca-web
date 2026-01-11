@@ -4,7 +4,7 @@
     "category": "Misc",
     "author": "Akretion,Odoo Community Association (OCA)",
     "license": "AGPL-3",
-    "version": "16.0.1.0.1",
+    "version": "19.0.1.0.1",
     "depends": ["base", "product"],
     "maintainers": ["franzpoize"],
     "website": "https://github.com/OCA/web",

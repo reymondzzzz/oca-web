@@ -4,7 +4,7 @@
 {
     "name": "Overview Dashboard (Tiles)",
     "summary": "Add Overview Dashboards with Tiles",
-    "version": "16.0.1.0.2",
+    "version": "19.0.1.0.2",
     "depends": [
         "web",
         "spreadsheet_dashboard",

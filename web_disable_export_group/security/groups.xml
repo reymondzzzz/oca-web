@@ -4,11 +4,7 @@
 <odoo>
     <record id="group_export_xlsx_data" model="res.groups">
         <field name="name">Direct Export (xlsx)</field>
-        <field name="category_id" ref="base.module_category_hidden" />
-        <field
-            name="users"
-            eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"
-        />
+        <!-- category_id and users removed in Odoo 19 -->
     </record>
     <record id="base.group_allow_export" model="res.groups">
         <field

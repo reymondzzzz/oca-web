@@ -63,10 +63,10 @@
     <record model="ir.ui.view" id="ir_model_fields_tooltip_tree_view">
         <field name="model">ir.model.fields.tooltip</field>
         <field name="arch" type="xml">
-            <tree>
+            <list>
                 <field name="model_id" />
                 <field name="field_id" />
-            </tree>
+            </list>
         </field>
     </record>
 

@@ -15,7 +15,7 @@
    <record id="view_tile_tile_tree" model="ir.ui.view">
         <field name="model">tile.tile</field>
         <field name="arch" type="xml">
-            <tree>
+            <list>
                 <field name="sequence" widget="handle" />
                 <field name="name" />
                 <field name="category_id" />
@@ -27,7 +27,7 @@
                 <field name="user_id" />
                 <field name="group_ids" />
                 <field name="background_color" widget="color" />
-            </tree>
+            </list>
         </field>
     </record>
 

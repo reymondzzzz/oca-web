@@ -2,7 +2,7 @@
     <record id="quick_start_screen_tree_view" model="ir.ui.view">
         <field name="model">quick.start.screen</field>
         <field name="arch" type="xml">
-            <tree editable="top">
+            <list editable="top">
                 <field name="name" />
                 <field
                     name="action_ids"
@@ -16,7 +16,7 @@
                     title="Go to the start screen"
                     icon="fa-flash"
                 />
-            </tree>
+            </list>
         </field>
     </record>
     <record id="start_screen_action_config" model="ir.actions.act_window">

@@ -2,6 +2,6 @@
 <odoo>
     <record id="group_quick_start_screen" model="res.groups">
         <field name="name">Quick Start Screen</field>
-        <field name="category_id" ref="base.module_category_hidden" />
+        <!-- category_id removed in Odoo 19 -->
     </record>
 </odoo>

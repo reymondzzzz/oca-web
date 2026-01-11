@@ -4,7 +4,7 @@
         <field name="name">web.form.banner.rule.tree</field>
         <field name="model">web.form.banner.rule</field>
         <field name="arch" type="xml">
-            <tree>
+            <list>
                 <field name="sequence" widget="handle" />
                 <field name="name" />
                 <field name="model_id" />
@@ -24,7 +24,7 @@
                     placeholder="return {'visible': True, 'values': {'title': '...'}}"
                     optional="show"
                 />
-            </tree>
+            </list>
         </field>
     </record>
     <record id="view_web_form_banner_rule_form" model="ir.ui.view">
@@ -178,7 +178,7 @@ else:
                     name="inactive"
                     domain="[('active','=',False)]"
                 />
-                <group expand="1" string="Group By">
+                <group>
                     <filter
                         string="Model"
                         name="model"

@@ -47,12 +47,12 @@
     <record model="ir.ui.view" id="view_tile_category_tree">
         <field name="model">tile.category</field>
         <field name="arch" type="xml">
-            <tree decoration-muted="(active == False)">
+            <list decoration-muted="(active == False)">
                 <field name="sequence" widget="handle" />
                 <field name="name" />
                 <field name="tile_qty" />
                 <field name="active" />
-            </tree>
+            </list>
         </field>
     </record>
 
